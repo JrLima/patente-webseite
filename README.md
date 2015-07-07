@@ -2,18 +2,15 @@
 
 1. RUN BaseX Server:
 
-    patente-webseite/assets/basexserver.bat
-
+       patente-webseite/assets/basexserver.bat
 
 2. RUN Config Datei:
 
-    patente-webseite/Config.js
-
+       patente-webseite/Config.js
 
 3. RUN Server:
 
-    patente-webseite/server.js
-
+       patente-webseite/server.js
 
 
 # Webseite rufen:
