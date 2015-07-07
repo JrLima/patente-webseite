@@ -6,11 +6,13 @@
 
 2. RUN Config Datei:
 
-       patente-webseite/Config.js
+       cd patente-webseite
+	   node Config.js
 
 3. RUN Server:
 
-       patente-webseite/server.js
+       cd patente-webseite
+	   node server.js
 
 
 # Webseite rufen:
