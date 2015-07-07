@@ -1,5 +1,5 @@
 // server.js
-
+var path = require('path');
 var express = require('express');
 var app     = express();
 var port    = process.env.PORT || 8080;
@@ -69,6 +69,7 @@ app.use('/rest', rest);
 
 /*			STATIC SERVER			*/
 var staticserver = express.Router();
+var staticPath = path.resolve(__dirname, '/html');
 
 staticserver.get('/json', function(req, res) {
 	client.execute("XQUERY xslt:transform-text('model.xml', 'transformation.xsl')", function (err, reply){res.send(reply.result)});
@@ -79,6 +80,18 @@ staticserver.get('/rdfa/:id', function(req, res) {
 	console.log("RDFA: " + req.params.id);
 });
 
+staticserver.get('/*', function(req, res){
+    var uid = req.params.uid,
+        path = req.params[0] ? req.params[0] : 'index.html';
+    res.sendFile(path, {root: './html'});
+});
+
+app.use('/', staticserver);
+
+app.listen(port);
+console.log('Magic happens on port ' + port);
+
+/*
 staticserver.get('/:filename', function(req, res) {
 	res.sendFile(__dirname + "/html/" + req.params.filename);
 });
@@ -99,15 +112,9 @@ staticserver.get('/:dir/:filename', function(req, res) {
 	res.sendFile(__dirname + "/html/" + req.params.dir + "/" + req.params.filename);
 });
 
-staticserver.get('/', function(req, res) {
-	res.sendFile(__dirname + "/html/index4.html");
-});
-
-app.use('/', staticserver);
 
 
-
-/*			/RDFa SERVER			
+			/RDFa SERVER			
 var rfda = express.Router();
 rfda.use(function(req, res, next) {
 	paramsquery = (Object.keys(req.query).length === 0) ? "" : "\n<br />\n"+JSON.stringify(req.query, null, 2);
@@ -122,12 +129,10 @@ rfda.use(function(req, res, next) {
 });
 
 app.use('/rfda', rfda);
-*/
 
-app.listen(port);
-console.log('Magic happens on port ' + port);
 
-/*
+
+
 var doXquery = function (select, where) {
 	var prepareQuery = function (objJson) {
 		var queryString = [];
@@ -158,16 +163,18 @@ var doXquery = function (select, where) {
 	
 	
 	}
-*/	
 
-/*
+	
+	
+	
 	if (Object.keys(req.query).length !== 0)
 	{
 		paramsquery = "\n<br />\n"+JSON.stringify(req.query, null, 2);
 	}
-*/
 
-/*
+	
+	
+	
 rest.get('/patentes', function(req, res) {
 	res.send("here goes the list of patents");
     res.send
@@ -187,9 +194,10 @@ rest.get('/patentes', function(req, res) {
 );
 
 });
-*/
 
-/*
+
+
+
 "<p>Typen: \"<xsl:for-each select="Type/typ">   <xsl:value-of select="."/>   <xsl:if test="position() != last()">      <xsl:text>, </xsl:text>   </xsl:if></xsl:for-each>\"</p>" +
 "<p>Beschreibung: \"<xsl:value-of select="Beschreibung"/>\"</p>" + 
 */
