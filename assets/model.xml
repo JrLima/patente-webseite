@@ -1,0 +1,635 @@
+﻿<Model>
+ <Lokalisierung>
+  <Ort>Ulm</Ort>
+  <lat>48.4010822</lat>
+  <lng>9.9876076</lng>
+  <Patent id="labw-2-57417">
+    <Beschreibung>Patent des Johann Friedrich Grimm zu Ulm auf Einrichtungen vonZimmeröfen</Beschreibung>
+    <Ersteller>Grimm; Johann Friedrich, Ulm</Ersteller>
+    <Type>
+      <typ>Ofen</typ>
+      <typ>Heizofen</typ>
+      <typ>Zimmerofen</typ>
+    </Type>
+    <Jahr>1846</Jahr>
+  </Patent>
+  <Patent id="labw-2-57725">
+    <Beschreibung>Patent des Mechanikers Karl Katzenschwanz in Um auf eine Gaslampezum Brennen von flüchtigen Leuchtstoffen</Beschreibung>
+    <Ersteller>Katzenschwanz; Karl, Mechaniker, Ulm</Ersteller>
+    <Type>
+      <typ>Leuchte</typ>
+      <typ>Gasbeleuchtung</typ>
+      <typ>Gaslampe</typ>
+      <typ>Leuchtstoffe</typ>
+      <typ>Leuchtstoff</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Brüninghausen/Westfalen</Ort>
+  <lat>51.5036315</lat>
+  <lng>7.5003648</lng>
+  <Patent id="labw-2-57466">
+    <Beschreibung>Patent des Wagenfabrikanten Daniel Soding aus Brüninghausen aufeine neue Wagenkonstruktion Philomela genannt</Beschreibung>
+    <Ersteller>Soding; Daniel, Brüninghausen</Ersteller>
+    <Type>
+      <typ>Wagenkonstruktion</typ>
+      <typ>Wagen</typ>
+    </Type>
+    <Jahr>1853</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Stuttgart</Ort>
+  <lat>48.7758459</lat>
+  <lng>9.1829321</lng>
+  <Patent id="labw-2-57425">
+    <Beschreibung>Patent des Mechanikers Friedrich Wahl in Stuttgart auf eineVerbesserung in der Lagerung bei Brettersägmaschinen</Beschreibung>
+    <Ersteller>Wahl; Friedrich, Stuttgart</Ersteller>
+    <Type>
+      <typ>Brettersägmaschinenlagerung</typ>
+      <typ>Lager &amp;lt;Maschinenbau&amp;gt;</typ>
+      <typ>Säge</typ>
+    </Type>
+    <Jahr>1848</Jahr>
+  </Patent>
+  <Patent id="labw-2-57523">
+    <Beschreibung>Patent des Glockengießers H. Kurtz in Stuttgart auf einenverbesserten Wasserzubringer</Beschreibung>
+    <Ersteller>Kurtz; H., Glockengießer, Stuttgart</Ersteller>
+    <Type>
+      <typ>Wasserleitung</typ>
+      <typ>Wasserzubringer</typ>
+      <typ>Wasserversorgung</typ>
+    </Type>
+    <Jahr>1856</Jahr>
+  </Patent>
+  <Patent id="labw-2-57595">
+    <Beschreibung>Patent des Fabrikanten C. Fuchs in Stuttgart auf eine verbessertemechanische Malzdarre</Beschreibung>
+    <Ersteller>Fuchs; C., Fabrikant, Stuttgart</Ersteller>
+    <Type>
+      <typ>Malzdarren; mechanische</typ>
+      <typ>Darre</typ>
+      <typ>Darren</typ>
+      <typ>Malzherstellung</typ>
+    </Type>
+    <Jahr>1858</Jahr>
+  </Patent>
+  <Patent id="labw-2-57709">
+    <Beschreibung>Patent des Gastwirts Joseph Bubeck von Stuttgart für eineKrautschneidmaschine</Beschreibung>
+    <Ersteller>Bubeck; Joseph, Gastwirt, Stuttgart</Ersteller>
+    <Type>
+      <typ>Schneidemaschine</typ>
+      <typ>Krautschneider</typ>
+      <typ>Kohl</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+  <Patent id="labw-2-57723">
+    <Beschreibung>Patent des Kupferschmieds Karl Kasten in Stuttgart für eine neueArt des Verschlusses von Dampfkochtöpfen</Beschreibung>
+    <Ersteller>Kasten; Karl, Kupferschmied, Stuttgart</Ersteller>
+    <Type>
+      <typ>Verschluss</typ>
+      <typ>Dampfkochtopfverschluß</typ>
+      <typ>Dampfkochtopf</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+  <Patent id="labw-2-57724">
+    <Beschreibung>Patent des Ingenieurs von Kellenbach in Stuttgart auf Bereitungvon Leucht- und Heizgas aus Harzöl und ölhaltigen Substanzen</Beschreibung>
+    <Ersteller>Kellenbach, von; Ingenieur, Stuttgart</Ersteller>
+    <Type>
+      <typ>Stadtgas</typ>
+      <typ>Destillation</typ>
+      <typ>Harze</typ>
+      <typ>Harzöl</typ>
+      <typ>Kolophonium</typ>
+      <typ>Gasgenerator</typ>
+      <typ>Gasproduktion</typ>
+      <typ>Gasmotor</typ>
+      <typ>Harzöl</typ>
+      <typ>Heizgas</typ>
+      <typ>Leuchtgas</typ>
+      <typ>Substanzen; ölhaltige</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+  <Patent id="labw-2-57728">
+    <Beschreibung>Patent des Spritzenfabrikanten Kurtz, Stuttgart, für einetragbare Saugfeuerspritze</Beschreibung>
+    <Ersteller>Kurtz; Spritzenfabrikant, Stuttgart</Ersteller>
+    <Type>
+      <typ>Saugfeuerspritze</typ>
+      <typ>Feuerspritze</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+  <Patent id="labw-2-57738">
+    <Beschreibung>Patent des Instrumentenfabrikanten Christian Öhler in Stuttgartfür eine eigentümliche Art des Aufziehens der Saiten beiKlavieren</Beschreibung>
+    <Ersteller>Öhler; Christian, Fabrikant, Stuttgart</Ersteller>
+    <Type>
+      <typ>Klavier</typ>
+      <typ>Klavier</typ>
+      <typ>Saitenaufziehen</typ>
+      <typ>Klaviertechnik</typ>
+      <typ>Saite</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+  <Patent id="labw-2-57740">
+    <Beschreibung>Einführungspatent des Fabrikanten P.M. Ottenheimer und Söhne inStuttgart für Verbesserungen an Korsettwebstühlen</Beschreibung>
+    <Ersteller>Ottenheimer; P.M., Fabrikant, Stuttgart</Ersteller>
+    <Type>
+      <typ>Webstuhl</typ>
+      <typ>Korsettwebstühle</typ>
+      <typ>Korsett</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+  <Patent id="labw-2-57744">
+    <Beschreibung>Patent des Mechanikers Wilhelm Reißer in Stuttgart aufRegulatoren für Argendgasflammen</Beschreibung>
+    <Ersteller>Reißer; Wilhelm, Mechaniker, Stuttgart</Ersteller>
+    <Type>
+      <typ>Gasdruckregler</typ>
+      <typ>Argendgasregulatoren</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+  <Patent id="labw-2-57748">
+    <Beschreibung>Patent des Mechanikers Jakob Seeger in Stuttgart auf einPreßplattenband für horizontale hydraulische Ölpressen</Beschreibung>
+    <Ersteller>Seeger; Jakob, Mechaniker, Stuttgart</Ersteller>
+    <Type>
+      <typ>Pflanzenölgewinnung</typ>
+      <typ>Preßplattenband</typ>
+      <typ>Ölpressen; horizontale hydraulische</typ>
+      <typ>Hydraulische Presse</typ>
+      <typ>Ölmühle</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+  <Patent id="labw-2-57754">
+    <Beschreibung>Patent des Bauunternehmers Georg Schöttle in Stuttgart für eineKnet- und Quetschmaschine</Beschreibung>
+    <Ersteller>Schöttle; Georg, Bauunternehmer, Stuttgart</Ersteller>
+    <Type>
+      <typ>Kneter</typ>
+      <typ>Knet- und Quetschmaschine</typ>
+      <typ>Mischanlage</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+  <Patent id="labw-2-57760">
+    <Beschreibung>Patent der Gebrüder Völker in Stuttgart für eine neueFeuerspritze</Beschreibung>
+    <Ersteller>Völker; Gebrüder, Stuttgart</Ersteller>
+    <Type>
+      <typ>Feuerspritze</typ>
+      <typ>Feuerspritze</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+  <Patent id="labw-2-57763">
+    <Beschreibung>Patent des Mechanikers C. Werner in Stuttgart auf eineneigentümlichen Bierkonservator</Beschreibung>
+    <Ersteller>Werner; C., Mechaniker, Stuttgart</Ersteller>
+    <Type>
+      <typ>Bier</typ>
+      <typ>Bierkonservierer</typ>
+      <typ>Lebensmittel</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+  <Patent id="labw-2-57879">
+    <Beschreibung>Patent des Ingenieurs K. Ehmann in Stuttgart auf einetransportable, doppelt wirkende Grubenpumpe</Beschreibung>
+    <Ersteller>Ehmann; K., Ingenieur, Stuttgart</Ersteller>
+    <Type>
+      <typ>Pumpe</typ>
+      <typ>Grubenpumpe</typ>
+      <typ>Bergwerk</typ>
+    </Type>
+    <Jahr>1863</Jahr>
+  </Patent>
+  <Patent id="labw-2-58237">
+    <Beschreibung>Patent des Feuerspritzenfabrikanten Heinrich Kurtz in Stuttgartauf eine Feuerspritze</Beschreibung>
+    <Ersteller>Kurtz; Heinrich, Fabrikant, Stuttgart</Ersteller>
+    <Type>
+      <typ>Feuerspritze</typ>
+      <typ>Feuerspritze</typ>
+    </Type>
+    <Jahr>1867</Jahr>
+  </Patent>
+  <Patent id="labw-2-58473">
+    <Beschreibung>Patent der Witwe des Pianofortefabrikanten Tobias Dauner inStuttgart auf einen eigentümlichen Mechanismus für Klaviere</Beschreibung>
+    <Ersteller>Dauner; Tobias, Fabrikant, Stuttgart</Ersteller>
+    <Type>
+      <typ>Klavier</typ>
+      <typ>Klaviermechanik</typ>
+      <typ>Klaviermechanismus</typ>
+    </Type>
+    <Jahr>1869</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Heilbronn</Ort>
+  <lat>49.1426929</lat>
+  <lng>9.2108790</lng>
+  <Patent id="labw-2-57533">
+    <Beschreibung>Patent des W. Werker in Heilbronn auf ein Verfahren das Bier vomVerderben zu schützen</Beschreibung>
+    <Ersteller>Werker; P., Heilbronn</Ersteller>
+    <Type>
+      <typ>Bierhaltbarmachung</typ>
+      <typ>Bier</typ>
+      <typ>Lebensmittel / Konservierung</typ>
+    </Type>
+    <Jahr>1856</Jahr>
+  </Patent>
+  <Patent id="labw-2-57766">
+    <Beschreibung>Patent des Fabrikanten Julius Wolff und Co. in Heilbronn für eineneue Konstruktion eines Dampfapparats</Beschreibung>
+    <Ersteller>Wolff; Julius, Fabrikant, Heilbronn</Ersteller>
+    <Type>
+      <typ>Dampfmaschine</typ>
+      <typ>Dampfapparat</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+  <Patent id="labw-2-57767">
+    <Beschreibung>Patent des Ziegeleibesitzers Ernst Ziegler in Heilbronn auf eineBrennmaterial ersparende Einrichtung von Kalk- undZementbrennöfen</Beschreibung>
+    <Ersteller>Ziegler; Ernst, Ziegeleibesitzer, Heilbronn</Ersteller>
+    <Type>
+      <typ>Brennöfen</typ>
+      <typ>Brennofen</typ>
+      <typ>Kalk-Brennöfen</typ>
+      <typ>Zement-Brennöfen</typ>
+      <typ>Kalkbrennen</typ>
+      <typ>Kalkofen</typ>
+      <typ>Zementherstellung</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Heidenheim an der Brenz</Ort>
+  <lat>48.6893963</lat>
+  <lng>10.1610948</lng>
+  <Patent id="labw-2-57559">
+    <Beschreibung>Patent der Gebrüder Laiblin in Pfullingen auf Verbesserungen andem den Fabrikanten Heinrich Völters Söhnen in Heidenheimpatentierten Hadernkochapparat</Beschreibung>
+    <Ersteller>Laiblin; Gebrüder, PfullingenVölter; Heinrich, Fabrikant, Heidenheim</Ersteller>
+    <Type>
+      <typ>Papierherstellung</typ>
+      <typ>Hadernkocher</typ>
+      <typ>Hadern</typ>
+      <typ>Hadernpapier</typ>
+    </Type>
+    <Jahr>1857</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Pfullingen</Ort>
+  <lat>48.4671800</lat>
+  <lng>9.2259533</lng>
+  <Patent id="labw-2-57559">
+    <Beschreibung>Patent der Gebrüder Laiblin in Pfullingen auf Verbesserungen andem den Fabrikanten Heinrich Völters Söhnen in Heidenheimpatentierten Hadernkochapparat</Beschreibung>
+    <Ersteller>Laiblin; Gebrüder, PfullingenVölter; Heinrich, Fabrikant, Heidenheim</Ersteller>
+    <Type>
+      <typ>Papierherstellung</typ>
+      <typ>Hadernkocher</typ>
+      <typ>Hadern</typ>
+      <typ>Hadernpapier</typ>
+    </Type>
+    <Jahr>1857</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Elberfeld</Ort>
+  <lat>51.2572220</lat>
+  <lng>7.1491670</lng>
+  <Patent id="labw-2-57570">
+    <Beschreibung>Patent des Gustav Scheuermann in Elberfeld auf eine Verbesserungim Musikaliendruck</Beschreibung>
+    <Ersteller>Scheuermann; Gustav, Elberfeld</Ersteller>
+    <Type>
+      <typ>Drucktechnik</typ>
+      <typ>Musikaliendruck</typ>
+      <typ>Notendruck</typ>
+    </Type>
+    <Jahr>1857</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>St. Petersburg/Rußland</Ort>
+  <lat>59.9342802</lat>
+  <lng>30.3350986</lng>
+  <Patent id="labw-2-57650">
+    <Beschreibung>Patent des Ingenieurs und Mechanikers Friedrich Sommer inPetersburg auf eine neue Konstruktion der Schornsteine derLokomotiven</Beschreibung>
+    <Ersteller>Sommer; Friedrich, Petersburg</Ersteller>
+    <Type>
+      <typ>Dampflokomotive</typ>
+      <typ>Lokomotivschornsteine</typ>
+      <typ>Lokomotivschornstein</typ>
+      <typ>Schornstein</typ>
+    </Type>
+    <Jahr>1859</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Hasenhof : Wüstenrot</Ort>
+  <lat>49.0979114</lat>
+  <lng>9.4685638</lng>
+  <Patent id="labw-2-57706">
+    <Beschreibung>Patent des Wagners Gottlieb Blind von Hasenhof für eineSchiebkarrenwinde</Beschreibung>
+    <Ersteller>Blind; Gottlieb, Wagner, Hasenhof</Ersteller>
+    <Type>
+      <typ>Schiebkarrenwinde</typ>
+      <typ>Karren</typ>
+      <typ>Seilwinde</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Aalen</Ort>
+  <lat>48.8366887</lat>
+  <lng>10.0971163</lng>
+  <Patent id="labw-2-57708">
+    <Beschreibung>Patent des Ingenieurs Karl ten Brink in Aalen für eineeigentümliche Art rauchverzehrender Kesselfeuerung</Beschreibung>
+    <Ersteller>Brink; Karl ten, Ingenieur, Aalen</Ersteller>
+    <Type>
+      <typ>Kesselfeuerung</typ>
+      <typ>Dampferzeuger</typ>
+      <typ>Feuerbüchse</typ>
+      <typ>Feuerung</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Eisenach/Thüringen</Ort>
+  <lat>50.9795715</lat>
+  <lng>10.3146872</lng>
+  <Patent id="labw-2-57714">
+    <Beschreibung>Patent des Technikers Emil Fleischhauer in Eisenach auf eineneigentümlichen Gasregulator</Beschreibung>
+    <Ersteller>Fleischhauer; Emil, Techniker, Eisenach</Ersteller>
+    <Type>
+      <typ>Gasregulator</typ>
+      <typ>Gasdruckregler</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Obertürkheim : Stuttgart</Ort>
+  <lat>48.7652901</lat>
+  <lng>9.2681633</lng>
+  <Patent id="labw-2-57729">
+    <Beschreibung>Patent des Maschinenfabrikanten Wilhelm Krauß in Obertürkheim aufeine besondere Einrichtung von mechanischen Webstühlen</Beschreibung>
+    <Ersteller>Krauß; Wilhelm, Fabrikant, Obertürkheim</Ersteller>
+    <Type>
+      <typ>Webstuhl</typ>
+      <typ>Webstühle; mechanische</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Geislingen an der Steige</Ort>
+  <lat>48.6215162</lat>
+  <lng>9.8294482</lng>
+  <Patent id="labw-2-57730">
+    <Beschreibung>Patent der Mechaniker Krum und M. Schäff in Geislingen für einenkonstruierten Zylinder-Göpel</Beschreibung>
+    <Ersteller>Krum; Mechaniker, GeislingenSchäff; M., Mechaniker, Geislingen</Ersteller>
+    <Type>
+      <typ>Zylinder &amp;lt;Maschinenbau&amp;gt;</typ>
+      <typ>Zylinder-Göpel</typ>
+      <typ>Göpel</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Felleringen/Elsaß</Ort>
+  <lat>47.8960579</lat>
+  <lng>6.9867310</lng>
+  <Patent id="labw-2-57731">
+    <Beschreibung>Einführungspatent des Fabrikanten Jean Larger in Felleringen inFrankreich auf Abänderungen an Turbinen</Beschreibung>
+    <Ersteller>Larger; Jean, Fabrikant, Felleringen</Ersteller>
+    <Type>
+      <typ>Turbine</typ>
+      <typ>Turbinen</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Fellbach</Ort>
+  <lat>48.8215653</lat>
+  <lng>9.2702944</lng>
+  <Patent id="labw-2-57736">
+    <Beschreibung>Patent des Wagnermeisters Gottlieb Neff von Fellbach für eineGitterraspel zum Abbeeren und Zerdrücken der Trauben</Beschreibung>
+    <Ersteller>Neef; Gottlieb, Wagnermeister, Fellbach</Ersteller>
+    <Type>
+      <typ>Traubenraspel</typ>
+      <typ>Weintraube</typ>
+      <typ>Traubenraspel</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Friedrichshafen</Ort>
+  <lat>47.6617648</lat>
+  <lng>9.4800113</lng>
+  <Patent id="labw-2-57755">
+    <Beschreibung>Patent des Waschmeisters R. Schröter in Friedrichshafen auf eineeigentümliche Kupplung für Schläuche</Beschreibung>
+    <Ersteller>Schröter; R., Waschmeister, Friedrichshafen</Ersteller>
+    <Type>
+      <typ>Schlauchkupplung</typ>
+      <typ>Schlauchkupplung</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Eupen/Belgien</Ort>
+  <lat>50.6292029</lat>
+  <lng>6.0337111</lng>
+  <Patent id="labw-2-57758">
+    <Beschreibung>Einführungspatent des E. Tonner in Eupen für eine Malzdörre undReinigungsmaschine</Beschreibung>
+    <Ersteller>Tonner; E., Eupen</Ersteller>
+    <Type>
+      <typ>Reinigungsmaschine</typ>
+      <typ>Darre</typ>
+      <typ>Darren</typ>
+      <typ>Malzherstellung</typ>
+      <typ>Malzdörre</typ>
+      <typ>Malzreinigungsmaschine</typ>
+      <typ>Reinigung</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Paris/Frankreich</Ort>
+  <lat>48.8566140</lat>
+  <lng>2.3522219</lng>
+  <Patent id="labw-2-57732">
+    <Beschreibung>Patent des Antoine Nikolaus Lesueur in Paris für Verbesserungenan Fliesen, Mauer- und Dachziegeln</Beschreibung>
+    <Ersteller>Lesueur; Antoine Nikolaus, Paris</Ersteller>
+    <Type>
+      <typ>Baustoff</typ>
+      <typ>Ziegel</typ>
+      <typ>Dachziegel</typ>
+      <typ>Fliesen</typ>
+      <typ>Mauerziegel</typ>
+      <typ>Dachziegel</typ>
+      <typ>Fliese</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+  <Patent id="labw-2-57762">
+    <Beschreibung>Patent des Spinnereidirektors William Whalley in Paris für einenReinigungsapparat</Beschreibung>
+    <Ersteller>Whalley; William, Spinnereidirektor, Paris</Ersteller>
+    <Type>
+      <typ>Reinigungsmaschine</typ>
+      <typ>Spinnereien</typ>
+      <typ>Spinnerei</typ>
+      <typ>Reinigungsapparat</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Ravensburg</Ort>
+  <lat>47.7782704</lat>
+  <lng>9.6121303</lng>
+  <Patent id="labw-2-57765">
+    <Beschreibung>Patent der Fabrikanten Escher-Wyß und Co. in Ravensburg aufeigentümliche Einrichtungen an mechanischen Webstühlen zurBandweberei</Beschreibung>
+    <Ersteller>Escher-Wyß und Co.; Fabrikant</Ersteller>
+    <Type>
+      <typ>Webstuhl</typ>
+      <typ>Webmaschine</typ>
+      <typ>Webstühle; mechanische</typ>
+      <typ>Bandweberei</typ>
+      <typ>Bandweberei</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+  <Patent id="labw-2-57768">
+    <Beschreibung>Patent des Ingenieurs Walter Zuppinger in Ravensburg auf eineKonstruktion einer sogenannten Mittelgefäll-Turbine</Beschreibung>
+    <Ersteller>Zuppinger; Walter, Ingenieur, Ravensburg</Ersteller>
+    <Type>
+      <typ>Turbine</typ>
+      <typ>Mittelgefällturbine</typ>
+      <typ>Wasserturbine</typ>
+    </Type>
+    <Jahr>1861</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Bilbao/Spanien</Ort>
+  <lat>43.2630126</lat>
+  <lng>-2.9349852</lng>
+  <Patent id="labw-2-58183">
+    <Beschreibung>Patent des Juan Amann in Bilbao auf einen Apparat zur Bewirkungdes automatischen Spielens auf Pianinos</Beschreibung>
+    <Ersteller>Amann; Juan, Bilbao</Ersteller>
+    <Type>
+      <typ>Pianinos</typ>
+      <typ>Klavier</typ>
+      <typ>Musikautomat</typ>
+      <typ>Mechanisches Musikinstrument</typ>
+    </Type>
+    <Jahr>1867</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Esslingen am Neckar</Ort>
+  <lat>48.7433425</lat>
+  <lng>9.3201122</lng>
+  <Patent id="labw-2-58185">
+    <Beschreibung>Patent des Schreiners und Mechanikers Abraham Bader in Esslingenauf eine neue Mostbereitungsmaschine</Beschreibung>
+    <Ersteller>Bader; Schreiner und Mechaniker, Esslingen</Ersteller>
+    <Type>
+      <typ>Mostherstellung</typ>
+      <typ>Mostbereitungsmaschine</typ>
+    </Type>
+    <Jahr>1867</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Schwäbisch Gmünd</Ort>
+  <lat>48.7994019</lat>
+  <lng>9.8045704</lng>
+  <Patent id="labw-2-58269">
+    <Beschreibung>Patent der Gebrüder Joseph und Julius Rieß in Gmünd auf einePresse zur Fabrikation von Wachskerzen</Beschreibung>
+    <Ersteller>Rieß; Joseph, GmündRieß; Julius, Gmünd</Ersteller>
+    <Type>
+      <typ>Presse &amp;lt;Technik&amp;gt;</typ>
+      <typ>Wachskerzenpresse</typ>
+      <typ>Kerze</typ>
+    </Type>
+    <Jahr>1867</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Stockholm/Schweden</Ort>
+  <lat>59.3293235</lat>
+  <lng>18.0685808</lng>
+  <Patent id="labw-2-58451">
+    <Beschreibung>Patent des Ingenieurs Franz Anrep in Stockholm auf Herstellungeines eigentümlichen Wasserheizers und hydrostatischenKesselspeisers für Lokomotiven</Beschreibung>
+    <Ersteller>Anrep; Franz, Ingenieur, Stockholm</Ersteller>
+    <Type>
+      <typ>Dampferzeuger</typ>
+      <typ>Feuerbüchse</typ>
+      <typ>Feuerung</typ>
+      <typ>Dampflokomotive</typ>
+      <typ>Wassereinspeisung</typ>
+      <typ>Wasserpumpe</typ>
+      <typ>Lokomotivkesselspeiser; hydrostatischer</typ>
+      <typ>Lokomotivwasserheizer</typ>
+      <typ>Dampflokomotivkessel</typ>
+    </Type>
+    <Jahr>1869</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Riedlingen</Ort>
+  <lat>48.1596486</lat>
+  <lng>9.4713346</lng>
+  <Patent id="labw-2-58496">
+    <Beschreibung>Patent des Wilhelm Hohbach in Riedlingen auf eineFeuerungskonstruktion bei Lokomotiven</Beschreibung>
+    <Ersteller>Hohbach; Wilhelm, Riedlingen</Ersteller>
+    <Type>
+      <typ>Feuerbüchse</typ>
+      <typ>Feuerung</typ>
+      <typ>Dampflokomotive</typ>
+      <typ>Lokomotivfeuerung</typ>
+    </Type>
+    <Jahr>1869</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Eybach, Geislingen an der Steige</Ort>
+  <lat>48.6393410</lat>
+  <lng>9.8783780</lng>
+  <Patent id="labw-2-58497">
+    <Beschreibung>Patent des Schulmeisters Jakob Honold in Eybach OA Geislingen aufVerbesserungen an der Zählmaschine</Beschreibung>
+    <Ersteller>Honold; Jakob, Schulmeister, Eybach</Ersteller>
+    <Type>
+      <typ>Zählerautomat</typ>
+      <typ>Zählmaschinenverbesserung</typ>
+    </Type>
+    <Jahr>1869</Jahr>
+  </Patent>
+</Lokalisierung>
+<Lokalisierung>
+  <Ort>Reutlingen</Ort>
+  <lat>48.5069389</lat>
+  <lng>9.2038043</lng>
+  <Patent id="labw-2-58519">
+    <Beschreibung>Patent des Wilhelm Maybach und der Vereinigten Werkstätten zumBruderhaus in Reutlingen auf eine Heizungsvorrichtung anVergoldungs- und Hochdruckpressen</Beschreibung>
+    <Ersteller>Maybach; Wilhelm, ReutlingenVereinigte Werkstätten zum Bruderhaus, Reutlingen</Ersteller>
+    <Type>
+      <typ>Heizung</typ>
+      <typ>Heizungsvorrichtung</typ>
+      <typ>Vergoldungs- und Hochdruckpressen</typ>
+      <typ>Hochdruckpresse</typ>
+      <typ>Vergolden</typ>
+    </Type>
+    <Jahr>1869</Jahr>
+  </Patent>
+ </Lokalisierung>
+</Model>

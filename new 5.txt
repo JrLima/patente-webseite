@@ -1,0 +1,20 @@
+declare namespace srn="http://www.w3.org/2005/sparql-results#";
+
+for $i in //Lokalisierung//Ersteller
+let $name := functx:substring-before-if-contains(substring-before(substring-after($i, '; '), ','), ' ')
+let $nachname:= functx:substring-before-if-contains(substring-before($i, ';'),',')
+let $result := <Model>{ $name }</Model>
+let $base1 := "let $base := http:send-request(<http:request method='get' href='http://live.dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=PREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%0D%0APREFIX+geo%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2003%2F01%2Fgeo%2Fwgs84_pos%23%3E%0D%0APREFIX+rdfs%3A+++%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0ASelect+DISTINCT+%3Fname+%3Fabstract+%3Fpicture+%3Fgbort+%3Flat+%3Flng%0D%0AWHERE+%7B%0D%0A%3Fperson+foaf%3AgivenName+%3FgivenName+.++FILTER+regex%28%3FgivenName%2C+%22' || $name || '%22%29%0D%0A%3Fperson+foaf%3Asurname+%3Fsurname+.+FILTER+regex%28%3Fsurname%2C+%22' || $nachname || '%22%29%0D%0A%3Fperson+dbpedia-owl%3Aabstract+%3Fabstract+%3B%0D%0Ardfs%3Alabel+%3Fname%3B%0D%0Adbpedia-owl%3AbirthPlace+%3FbirthPlace+.%0D%0A%3FbirthPlace+rdfs%3Alabel+%3Fgbort+%3B%0D%0Ageo%3Alat+%3Flat+%3B%0D%0Ageo%3Along+%3Flng+.%0D%0AOPTIONAL+%7B%3Fperson+dbpedia-owl%3Athumbnail+%3Fpicture+.%7D%0D%0A%7D+ORDER+BY+%3Fsurname+LIMIT+1&format=application%2Fsparql-results%2Bxml&CXML_redir_for_subjs=121&CXML_redir_for_hrefs=&timeout=30000&debug=on' />)
+return $base"
+let $base2 := xquery:eval($base1)
+let $ersteller := $base2/srn:sparql/srn:results/srn:result[1]
+  return
+<Ersteller>
+ <Name>{$name}</Name>
+ <Lebenslauf>{$ersteller/srn:binding[data(@name)="abstract"]/srn:literal/text()}</Lebenslauf>
+ <Geburtsort>
+  <Ort>{$ersteller/srn:binding[data(@name)="gbort"]/srn:literal/text()}</Ort>
+  <lat>{$ersteller/srn:binding[data(@name)="lat"]/srn:literal/text()}</lat>
+  <lng>{$ersteller/srn:binding[data(@name)="long"]/srn:literal/text()}</lng>
+ </Geburtsort>
+</Ersteller>

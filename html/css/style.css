@@ -1,0 +1,105 @@
+@font-face {
+    font-family: altmodische;
+    src: url(../BLKCHCRY.TTF);
+	}
+
+h1, h2, h3, h4 {
+	font-family: 'Arial'
+}
+
+.container1 {
+	padding: 9em 2em;
+	margin: auto;
+	margin-top: -60px; //
+	width: 1200px;
+}
+
+p {
+	font-family: 'Arial', cursive;
+}
+
+#error {
+	color: red;
+	font-size: 20px;
+}
+
+#logo {
+	padding-left: 15px;
+}
+
+#miniLogos {
+	height: 20px;
+	width: 22px;
+}
+
+#one {
+	background-color: #bce8f1;
+	padding-left: 15px;
+}
+
+#map_canvas { 
+  border: 1px solid black;
+  height: 400px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.patentkarte.neu{
+	border: 3px black double;
+	padding: 5px;
+}
+
+.patentkarte td {
+	vertical-align:top;
+}
+
+.patentkarte td.right {
+	padding-left:30px;
+}
+
+.patentkarte img {
+	max-width:200px;
+}
+
+#title{
+	font-size: 40px;
+	padding-right:15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+
+#rightmenu {
+	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#dropmenu {
+	font-size: 15px;
+}
+
+.container{
+	width: 100%;
+}
+
+#jumbotron * {
+	font-family: altmodische !important;
+	margin-bottom:20px;
+}
+
+.jumbotron {
+	background-color: transparent;
+}
+
+#jumbotron p {
+	font-size: 25px;
+}
+
+#jumbotron h2 {
+	font-size: 40px;
+}
+
+#jumbotron2 p {
+	font-size: 25px;
+}
