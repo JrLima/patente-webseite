@@ -2,20 +2,22 @@
 
 1. RUN BaseX Server:
 
+```
        patente-webseite/assets/basexserver.bat
-(Windows). Andere Möglichkeiten, um den BaseX Server einzuschalten, findet man in (BaseX Dokumentation)[http://docs.basex.org/wiki/Start_Scripts]
+```
+(Windows-64). Andere Möglichkeiten, um den BaseX Server einzuschalten, findet man in (BaseX Dokumentation)[http://docs.basex.org/wiki/Start_Scripts]
 	   
 2. RUN Config Datei:
 
 ```
-       cd patente-webseite
-	   node Config.js
+cd patente-webseite
+node Config.js
 ```
 
 3. RUN Server:
 
 ```
-	   node server
+node server
 ```
 (in patente-webseite Ordner)
 
