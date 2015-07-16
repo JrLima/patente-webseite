@@ -1,4 +1,5 @@
-﻿<Model>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Model xmlns="http://localhost:8080/Schema.xml" >
  <Lokalisierung>
   <Ort>Ulm</Ort>
   <lat>48.4010822</lat>
@@ -275,22 +276,6 @@
     <Beschreibung>Patent der Gebrüder Laiblin in Pfullingen auf Verbesserungen andem den Fabrikanten Heinrich Völters Söhnen in Heidenheimpatentierten Hadernkochapparat</Beschreibung>
     <Ersteller>Laiblin; Gebrüder, PfullingenVölter; Heinrich, Fabrikant, Heidenheim</Ersteller>
 	<Lebenslauf>Louis Laiblin (einer der Gebrüder Laiblin ist am 04.06.1861 geboren und gestorben am 10. Februar 1927. Sein Vater hatte das Patent vorher beantragt. Nach dem Tode seines Vaters im Jahr 1892 wurde ihm dessen Anteil aus der Papierfabrik Gebr. Laiblin ausbezahlt. Die Firma wurde von seinen Vettern Karl und Ernst weitergeführt.</Lebenslauf>
-    <Type>
-      <typ>Papierherstellung</typ>
-      <typ>Hadernkocher</typ>
-      <typ>Hadern</typ>
-      <typ>Hadernpapier</typ>
-    </Type>
-    <Jahr>1857</Jahr>
-  </Patent>
-</Lokalisierung>
-<Lokalisierung>
-  <Ort>Pfullingen</Ort>
-  <lat>48.4671800</lat>
-  <lng>9.2259533</lng>
-  <Patent id="labw-2-57559">
-    <Beschreibung>Patent der Gebrüder Laiblin in Pfullingen auf Verbesserungen andem den Fabrikanten Heinrich Völters Söhnen in Heidenheimpatentierten Hadernkochapparat</Beschreibung>
-    <Ersteller>Laiblin; Gebrüder, PfullingenVölter; Heinrich, Fabrikant, Heidenheim</Ersteller>
     <Type>
       <typ>Papierherstellung</typ>
       <typ>Hadernkocher</typ>

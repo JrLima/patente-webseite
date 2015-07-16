@@ -1,0 +1,86 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Model">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Lokalisierung" maxOccurs="unbounded" minOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Ort"/>
+              <xs:element type="xs:float" name="lat"/>
+              <xs:element type="xs:float" name="lng"/>
+              <xs:element name="Patent" maxOccurs="unbounded" minOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Beschreibung"/>
+                    <xs:element type="xs:string" name="Ersteller"/>
+                    <xs:element name="Lebenslauf" minOccurs="0">
+                      <xs:complexType mixed="true">
+                        <xs:choice maxOccurs="unbounded" minOccurs="0">
+                          <xs:element name="b">
+                            <xs:complexType mixed="true">
+                              <xs:sequence>
+                                <xs:element name="a" maxOccurs="unbounded" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute type="xs:string" name="href" use="optional"/>
+                                        <xs:attribute type="xs:string" name="title" use="optional"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="a">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="href" use="optional"/>
+                                  <xs:attribute type="xs:string" name="title" use="optional"/>
+                                  <xs:attribute type="xs:string" name="class" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="sup">
+                            <xs:complexType mixed="true">
+                              <xs:sequence>
+                                <xs:element name="a" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute type="xs:string" name="href"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute type="xs:string" name="id" use="optional"/>
+                              <xs:attribute type="xs:string" name="class" use="optional"/>
+                              <xs:attribute type="xs:string" name="href" use="optional"/>
+                              <xs:attribute type="xs:string" name="title" use="optional"/>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:choice>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Type">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="typ" maxOccurs="unbounded" minOccurs="1"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:short" name="Jahr"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="id" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
