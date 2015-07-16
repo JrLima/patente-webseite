@@ -25,44 +25,44 @@ rest.use(function(req, res, next) {
 });
 
 rest.get('/', function(req, res) {
-	client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; /", function (err, reply){res.send(reply.result)});
+	client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; /", function (err, reply){res.send("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n" + reply.result)});
 });
 
 rest.get(['/patente','/patente/:id'], function(req, res) {
 	if (req.params.id == "html" || typeof req.params.id === 'undefined')
-	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; <Resultaet> <ul> { for $p in Model/Lokalisierung/Patent return <li><a href=\"/rest/patente/{ $p/data(@id) }\">{ $p/Beschreibung/text() }</a></li> } </ul> </Resultaet>", function (err, reply){res.send(reply.result)});
+	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; <Resultaet> <ul> { for $p in Model/Lokalisierung/Patent return <li><a href=\"/rest/patente/{ $p/data(@id) }\">{ $p/Beschreibung/text() }</a></li> } </ul> </Resultaet>", function (err, reply){res.send("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n" + reply.result)});
 	else if (req.params.id == "xml")
-	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; <Resultaet> { for $p in Model/Lokalisierung/Patent return $p/Beschreibung/text() } </Resultaet>", function (err, reply){res.send(reply.result)});
+	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; <Resultaet> { for $p in Model/Lokalisierung/Patent return $p/Beschreibung/text() } </Resultaet>", function (err, reply){res.send("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n" + reply.result)});
 	else
-	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; for $ort in Model/Lokalisierung/Patent[data(@id='" + req.params.id + "')]/parent::* return <Lokalisierung> { $ort/Ort } { $ort/lat } { $ort/lng } { $ort/Patent[data(@id='" + req.params.id + "')] } </Lokalisierung>", function (err, reply){res.send(reply.result)});
+	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; for $ort in Model/Lokalisierung/Patent[data(@id='" + req.params.id + "')]/parent::* return <Lokalisierung> { $ort/Ort } { $ort/lat } { $ort/lng } { $ort/Patent[data(@id='" + req.params.id + "')] } </Lokalisierung>", function (err, reply){res.send("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n" + reply.result)});
 });
 
 rest.get(['/jahre','/jahre/:jahr'], function(req, res) {
 	if (req.params.jahr == "html" || typeof req.params.jahr === 'undefined')
-	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; <Resultaet> <ul>{ for $jahr in distinct-values(Model/Lokalisierung/Patent/Jahr) return <li><a href=\"/rest/jahre/{ $jahr }\">{ $jahr }</a></li> } </ul> </Resultaet>", function (err, reply){res.send(reply.result)});
+	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; <Resultaet> <ul>{ for $jahr in distinct-values(Model/Lokalisierung/Patent/Jahr) return <li><a href=\"/rest/jahre/{ $jahr }\">{ $jahr }</a></li> } </ul> </Resultaet>", function (err, reply){res.send("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n" + reply.result)});
 	else if (req.params.jahr == "xml")
-	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; <Resultaet> { for $jahr in distinct-values(Model/Lokalisierung/Patent/Jahr) return  <Jahr>{$jahr}</Jahr>  } </Resultaet>", function (err, reply){res.send(reply.result)});
+	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; <Resultaet> { for $jahr in distinct-values(Model/Lokalisierung/Patent/Jahr) return  <Jahr>{$jahr}</Jahr>  } </Resultaet>", function (err, reply){res.send("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n" + reply.result)});
 	else
-	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; <Resultaet> { for $ort in Model/Lokalisierung[Patent/Jahr/text()='"+req.params.jahr+"'] return <Lokalisierung> { $ort/Ort } { $ort/lat } { $ort/lng } { for $p in $ort/Patent[Jahr/text()='"+req.params.jahr+"'] return $p } </Lokalisierung> }</Resultaet>", function (err, reply){res.send(reply.result)});
+	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; <Resultaet> { for $ort in Model/Lokalisierung[Patent/Jahr/text()='"+req.params.jahr+"'] return <Lokalisierung> { $ort/Ort } { $ort/lat } { $ort/lng } { for $p in $ort/Patent[Jahr/text()='"+req.params.jahr+"'] return $p } </Lokalisierung> }</Resultaet>", function (err, reply){res.send("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n" + reply.result)});
 });
 
 rest.get(['/orte','/orte/:ort'], function(req, res) {
 	if (req.params.ort == "html" || typeof req.params.ort === 'undefined')
-	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; <Resultaet> <ul> { for $ort in Model/Lokalisierung return <li> <a href=\"/rest/orte/{ web:encode-url($ort/Ort) }\">{ $ort/Ort }</a></li>  } </ul>  </Resultaet>", function (err, reply){res.send(reply.result)});
+	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; <Resultaet> <ul> { for $ort in Model/Lokalisierung return <li> <a href=\"/rest/orte/{ web:encode-url($ort/Ort) }\">{ $ort/Ort }</a></li>  } </ul>  </Resultaet>", function (err, reply){res.send("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n" + reply.result)});
 	else if (req.params.ort == "xml")
-	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; <Resultaet> { for $ort in Model/Lokalisierung return $ort/Ort  }  </Resultaet>", function (err, reply){res.send(reply.result)});
+	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; <Resultaet> { for $ort in Model/Lokalisierung return $ort/Ort  }  </Resultaet>", function (err, reply){res.send("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n" + reply.result)});
 	else
-	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; <Resultaet> { for $ort in Model/Lokalisierung[Ort/text()=web:decode-url('"+req.params.ort+"')] return $ort }</Resultaet>", function (err, reply){res.send(reply.result)});
+	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; <Resultaet> { for $ort in Model/Lokalisierung[Ort/text()=web:decode-url('"+req.params.ort+"')] return $ort }</Resultaet>", function (err, reply){res.send("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n" + reply.result)});
 });
 
 
 rest.get(['/type','/type/:typ'], function(req, res) {
 	if (req.params.typ == "html" || typeof req.params.typ === 'undefined')
-	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; <Resultaet> <ul>{ for $typ in distinct-values(Model/Lokalisierung/Patent/Type/typ) return <li><a href=\"/rest/type/{ web:encode-url($typ) }\">{ $typ }</a></li> }</ul></Resultaet>", function (err, reply){res.send(reply.result)});
+	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; <Resultaet> <ul>{ for $typ in distinct-values(Model/Lokalisierung/Patent/Type/typ) return <li><a href=\"/rest/type/{ web:encode-url($typ) }\">{ $typ }</a></li> }</ul></Resultaet>", function (err, reply){res.send("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n" + reply.result)});
 	else if (req.params.typ == "xml")
-	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; <Resultaet> { for $typ in distinct-values(Model/Lokalisierung/Patent/Type/typ) return <typ>{$typ}</typ>  }</Resultaet>", function (err, reply){res.send(reply.result)});
+	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; <Resultaet> { for $typ in distinct-values(Model/Lokalisierung/Patent/Type/typ) return <typ>{$typ}</typ>  }</Resultaet>", function (err, reply){res.send("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n" + reply.result)});
 	else
-	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; <Resultaet> { for $ort in Model/Lokalisierung[Patent/Type/typ/text()=web:decode-url('"+req.params.typ+"')] return <Lokalisierung> { $ort/Ort } { $ort/lat } { $ort/lng } { for $p in $ort/Patent[Type/typ/text()=web:decode-url('"+req.params.typ+"')] return $p } </Lokalisierung> }</Resultaet>", function (err, reply){res.send(reply.result)});
+	 client.execute("XQUERY declare default element namespace \"http://localhost:8080/Schema.xml\"; <Resultaet> { for $ort in Model/Lokalisierung[Patent/Type/typ/text()=web:decode-url('"+req.params.typ+"')] return <Lokalisierung> { $ort/Ort } { $ort/lat } { $ort/lng } { for $p in $ort/Patent[Type/typ/text()=web:decode-url('"+req.params.typ+"')] return $p } </Lokalisierung> }</Resultaet>", function (err, reply){res.send("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n" + reply.result)});
 });
 
 app.use('/rest', rest);
